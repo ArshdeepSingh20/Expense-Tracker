@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container{
+    background-color: rgb(213, 213, 230);
+     
+    height: 650px;
+    width: 475px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #balance {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #buttons {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    width: 180px;
+    border-radius: 10px;
+  }
+
+  #earningsBtn{
+    background-color: green;
+  }
+
+  #expensesBtn{
+    background-color: red;
+  }
+
+.box1{
+        display: flex;
+        height: 300px;
+        width: 100%;
+        border: 1px solid black;
+        justify-content: center;
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+th{
+    font-size: 25px;
+}
+  
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .box2 {
+    border: 1px solid black;
+    padding: 10px;
+    height: 180px;
+    width: 85%;
+    overflow-y: auto;
+    text-align: left;
+  }
+  .box2 { 
+    position: relative;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .transaction-item span {
+    margin-right: 10px;
+  }
+  
+  
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Expense Tracker</h1>
+
+        <div id="balance">
+            <h2>Current Balance: &#8377; <span id="balanceAmount">0</span></h2>
+        </div>
+
+
+        <div id="transactionHistory" class="box1">
+            <h2>Transaction History:</h2>
+            <div id="transactionsList" class="box2"></div>
+        </div>
+
+
+        <div>
+            <table cellspacing="22px">
+                <tr>
+                    <th>Description</th>
+                    <th></th>
+                    <th>Amount</th>
+                </tr>
+
+                <tr>
+                    <td><input type="text" id="descInput"></td>
+                    <td></td>
+                    <td><input type="number" id="amountInput"></td>
+                </tr>
+
+                <tr>
+                    <td> <button id="earningsBtn" class="bt">Add Earnings</button></td>
+                    <td></td>
+                    <td><button id="expensesBtn" class="bt">Add Expenses</button></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</htm
